@@ -24,7 +24,7 @@ public class Project {
 		try {
 
 			connection = DriverManager.getConnection(MYSQL_HOST, MYSQL_USERNAME, MYSQL_PASSWORD); 
-			Class.forName("com.mysql.jdbc.Driver");
+
 			if (args.length == 0 || args.length > 4) { // If too few/many args or Usage si called, display Usage text 
 				System.out.println("Invalid amount of args. Type '/?' for usage.");
 
