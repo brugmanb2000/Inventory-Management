@@ -161,6 +161,7 @@ public class Project {
 				ResultSet rs = ps.executeQuery();
 
 				System.out.println("Query Results:");
+				System.out.println("ID, ItemCode, Item Description, Price");
 				System.out.println("--------------");
 
 
@@ -239,9 +240,10 @@ public class Project {
 				PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 				
 				ResultSet rs = ps.executeQuery();
-				System.out.println("ID, ItemID, Quantity, Date/Time");
+				
 
 				System.out.println("Query Results:");
+				System.out.println("ID, ItemID, Quantity, Date/Time");
 				System.out.println("--------------");
 				
 				while (rs.next()) {
@@ -277,8 +279,8 @@ public class Project {
 				PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 				
 				ResultSet rs = ps.executeQuery();
-				System.out.println("ID, ItemID, Quantity, Date/Time");
 				System.out.println("Query Results:");
+				System.out.println("ID, ItemID, Quantity, Date/Time");
 				System.out.println("--------------");
 				
 				while (rs.next()) {
