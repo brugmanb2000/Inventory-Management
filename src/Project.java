@@ -239,6 +239,7 @@ public class Project {
 				PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 				
 				ResultSet rs = ps.executeQuery();
+				System.out.println("ID, ItemID, Quantity, Date/Time");
 
 				System.out.println("Query Results:");
 				System.out.println("--------------");
@@ -276,7 +277,7 @@ public class Project {
 				PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 				
 				ResultSet rs = ps.executeQuery();
-
+				System.out.println("ID, ItemID, Quantity, Date/Time");
 				System.out.println("Query Results:");
 				System.out.println("--------------");
 				
