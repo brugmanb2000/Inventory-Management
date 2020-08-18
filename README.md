@@ -1,4 +1,4 @@
-# BSU-HU-CS-310-Final-Project
+# Inventory Management
 
 # Author
 ### Brandon Brugman for CS 310
