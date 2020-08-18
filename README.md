@@ -1,4 +1,5 @@
 # Inventory Management
+## NOTE: Database is no longer live
 
 # Author
 ### Brandon Brugman for CS 310
